@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.show-height {
+    max-height: 20rem;
+    transition: all 0.25s ;
+}
+
+.hide-height {
+    max-height: 0;
+    transition: all 0.25s;
+    overflow: hidden;
+}
+
+input {
+    outline: none;
+}
+
+@media only screen and (max-width : 426px) {
+    html {
+        font-size: 75%;
+    }
+}
